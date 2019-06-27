@@ -1,0 +1,100 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.headingSize {
+	font-size: 18px;
+	background-color: black;
+	color: #aaaaaa;
+	height: 50px;
+	margin: 0;
+	float: none;
+	clear: both;
+}
+
+.headingSize li {
+	float: left;
+	list-style: none;
+}
+
+.emptyBlock {
+	width: 140px;
+	height: 35px;
+	background-color: #ff8000;
+	margin: 7.5px 40px 7.5px 40px;
+}
+
+.navMargin {
+	margin: 11.5px 40px 11.5px 0;
+}
+
+.empty {
+	background-color: #71c4ea;
+	height: 485px;
+	width: 100%;
+}
+
+.mainHead {
+	font-size: 36px;
+	margin: 64px 0 70px 0;
+	font-family: cursive;
+}
+
+.artListing {
+	margin: 0 auto;
+  width:915px;
+}
+.artListing:last-child {
+	margin: 0;
+}
+.artListing li {
+	margin-right: 75px;
+	list-style: none;
+	font-family: cursive;
+	float: left;
+	margin-bottom: 114px;
+}
+
+.imgBlock {
+	height: 140px;
+	width: 140px;
+	border-radius: 50%;
+	background-color: #efefef;
+	margin-bottom: 20px;
+}
+
+p {
+	width: 150px;
+	height: 108px;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #888888;
+	font-weight: lighter;
+}
+
+.spacing {
+	margin: 20px 75px 110px 0;
+	/*Spacing Problem*/
+}
+
+.footerBar {
+	font-size: 16px;
+	background-color: #ececec;
+	color: #ff8000;
+	height: 50px;
+	margin: 0;
+	float: none;
+	clear: both;
+}
+
+.footerBar li {
+	list-style: none;
+	padding: 13px 0 13px 50px;
+	display: inline-block;
+	/*float: left;*/
+}
+
+.footerBar li:hover {
+	color: #444444;
+}
