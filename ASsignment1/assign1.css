@@ -49,11 +49,10 @@
 	margin: 0;
 }
 .artListing li {
-	margin-right: 75px;
+	margin:0 75px 114px 0;;
 	list-style: none;
 	font-family: cursive;
 	float: left;
-	margin-bottom: 114px;
 }
 
 .imgBlock {
@@ -73,11 +72,6 @@ p {
 	font-weight: lighter;
 }
 
-.spacing {
-	margin: 20px 75px 110px 0;
-	/*Spacing Problem*/
-}
-
 .footerBar {
 	font-size: 16px;
 	background-color: #ececec;
@@ -92,9 +86,7 @@ p {
 	list-style: none;
 	padding: 13px 0 13px 50px;
 	display: inline-block;
-	/*float: left;*/
 }
-
 .footerBar li:hover {
 	color: #444444;
 }
