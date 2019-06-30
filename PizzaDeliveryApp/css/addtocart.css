@@ -3,18 +3,26 @@
 	padding: 0;
 }
 
+.floatLeft {
+	float: left;
+}
+
 .mainList {
 	margin: 0;
 	font-family: sans-serif;
 	font-size: 24px;
 	list-style: none;
-	border: 1px solid #ddd;
-	background-color: white;
+	background-color: honeydew;
+}
+
+.mainList li {
+	border: 1px solid #dddd;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 }
 
 .mainList h3 {
-	padding: 11px 0px 11px 0px;
-	float: left;
+	padding: 11px 0 11px 0;
 	margin: 0;
 }
 
@@ -31,13 +39,18 @@
 }
 
 .listOfItems h3 {
-	float: left;
 	margin: 0;
+}
+
+.listOfItems li {
+	border: 1px solid #dddd;
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
 }
 
 .listOfItems .name,
 .listOfItems .price {
-	padding: 8px 0px 8px 0px;
+	padding: 8px 0 8px 0;
 }
 
 .listOfItems {
@@ -46,7 +59,6 @@
 	font-family: sans-serif;
 	font-size: 24px;
 	list-style: none;
-	border: 1px solid #ddd;
 }
 
 .redButton {
@@ -57,12 +69,11 @@
 	text-align: center;
 	border: 1px solid transparent;
 	border-radius: 4px;
+	margin: 2px 0;
 }
 
 .couponInput {
 	padding: 6px 12px;
-	float: left;
-	margin: 0 100px 0 0;
 	background-color: #095c91;
 	color: white;
 	font-size: 24px;
@@ -79,14 +90,15 @@
 }
 
 .orderValues {
-	padding: 50px 0 0 20px;
+	padding: 50px 0 40px 20px;
 	background-color: #095c91;
 	text-align: center;
 }
 
 .pizzaButton {
 	border-radius: 10px;
-	margin: 20px auto 10px 190px;
+	display: block;
+	margin: 20px auto 0 auto;
 	padding: 10px 35px;
 	background-color: white;
 	color: #e61a39;

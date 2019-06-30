@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <title>AddToCart</title>
         <link href="./css/addtocart.css" type="text/css" rel="stylesheet">
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <ul class="mainList clearfix">
-            <li>
-                <h3 class="name">Name</h3>
-                <h3 class="action">Action</h3>
-                <h3 class="price">Price</h3>
+            <li class="clearfix">
+                <h3 class="name floatLeft">Name</h3>
+                <h3 class="action floatLeft">Action</h3>
+                <h3 class="price floatLeft">Price</h3>
             </li>
         </ul>
         <ul class="listOfItems clearfix">
-            <li>
-                <h3 class="name"> 1)Margherita</h3>
-                <h3 class="action"><input class="redButton" type="button"  value="X" ></input></h3>
-                <h3 class="price">360RS</h3>
+            <li class="clearfix">
+                <h3 class="name floatLeft"> 1)Margherita</h3>
+                <h3 class="action floatLeft">
+                    <button class="redButton" type="submit">X</button>
+                </h3>
+                <h3 class="price floatLeft">360RS</h3>
             </li>
         </ul>
         <div class="orderValues">
             <div class="clearfix">
-                <input type="text" class="couponInput" value="Enter Code">
+                <input type="text" class="couponInput floatLeft" value="Enter Code">
                 <button class="couponApply">Apply Coupon</button>
-                <span class="textTotal">TOTAL => 80RS </span>
+                <span class="textTotal">TOTAL => 360RS </span>
             </div>
-            <input class="pizzaButton" type="button" value="PLACE YOUR ORDER"> </input>
+            <button class="pizzaButton" type="submit">PLACE YOUR ORDER </button>
         </div>
     </body>
 </html>

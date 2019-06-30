@@ -2,34 +2,41 @@
 	padding: 0;
 	margin: 0;
 }
+
 .navBar {
 	background-color: black;
 }
+
 ul {
 	list-style: none;
 }
+
 .emptyBlock {
-	float:left;
+	float: left;
 	width: 140px;
 	background-color: #ff8000;
 	padding: 17.5px 0;
 	margin: 7.5px 40px 7.5px 40px;
 }
+
 .headingNav {
 	font-size: 18px;
 	margin: 0;
-  float:left;
+	float: left;
 }
+
 .headingNav li {
-	float:left;
+	float: left;
 	margin: 13px 0 0 20px;
 }
+
 .headingNav a {
 	color: #aaaaaa;
 }
+
 .emptyMain {
 	background-color: #71c4ea;
-	padding:242.5px 0 242.5px 0;
+	padding: 242.5px 0 242.5px 0;
 	width: 100%;
 }
 
@@ -38,22 +45,26 @@ ul {
 	margin: 64px 0 70px 0;
 	font-family: cursive;
 }
+
 .artListing {
 	margin: 0 auto 110px auto;
-  width:915px;
+	width: 915px;
 }
+
 .artListing li {
 	font-family: cursive;
 	float: left;
 	margin-right: 75px;
 }
+
 .imgBlock {
-	padding:70px 0;
-	width:140px;
+	padding: 70px 0;
+	width: 140px;
 	border-radius: 50%;
 	background-color: #efefef;
 	margin-bottom: 20px;
 }
+
 p {
 	width: 150px;
 	font-size: 18px;
@@ -61,23 +72,26 @@ p {
 	color: #888888;
 	font-weight: lighter;
 }
+
 .footerBase {
 	background-color: #ececec;
 }
-	.footerBar {
-		width:380px;
-		margin:0 auto;
-	}
+
+.footerBar {
+	width: 380px;
+	margin: 0 auto;
+}
+
 .footerBar li {
 	float: left;
 	padding-right: 20px;
 	margin: 13px 0;
 }
+
 .footerBar a {
 	font-size: 16px;
-	color:#ff8000;
+	color: #ff8000;
 }
-
 
 .footerBar a:hover {
 	color: #444444;
