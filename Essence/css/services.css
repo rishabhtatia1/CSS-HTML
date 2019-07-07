@@ -1,7 +1,7 @@
 * {
 	padding: 0;
 	margin: 0;
-  font-family: sans-serif;
+	font-family: sans-serif;
 }
 
 .header {
@@ -46,6 +46,10 @@
 	padding: 100px 0 75px 0;
 }
 
+.middleBox p {
+	margin-bottom: 50px;
+}
+
 .pinkButton {
 	background-color: pink;
 	color: white;
@@ -86,18 +90,27 @@
 }
 
 .servicesTypes {
-	padding-bottom: 50px;
+	padding: 0 15px 50px 15px;
 	margin: 0;
 }
 
 .servicesTypes li {
+	list-style: none;
+	padding: 15px;
+}
+
+.innerPartition {
 	border: 1px solid gray;
 	border-width: thin;
-	list-style: none;
-	padding: 30px 50px;
+	padding: 20px;
+}
+
+.innerPartition h6 {
+	font-size: 20px;
 }
 
 .servicesTypes i {
+	margin-top: 10px;
 	font-size: 16px;
 	color: red;
 }
