@@ -1,0 +1,112 @@
+* {
+	padding: 0;
+	margin: 0;
+  font-family: sans-serif;
+}
+
+.header {
+	background-color: #d3d3d3;
+}
+
+.logo {
+	width: 109px;
+	margin: 6.25px 40px;
+}
+
+.rightNavBar {
+	margin: 0;
+}
+
+.rightNavBar li {
+	list-style: none;
+	margin: 13px 20px 13px 0;
+}
+
+.rightNavBar a {
+	font-size: 15px;
+	color: black;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+
+.rightNavBar a:hover {
+	border-bottom: 3px solid red;
+	text-decoration: none;
+	color: black;
+}
+
+.rightNavBar li:last-child {
+	margin-right: 50px;
+}
+
+.middleBox {
+	background-image: url('./images/artificial1.jpg');
+	background-size: cover;
+	color: white;
+	padding: 100px 0 75px 0;
+}
+
+.pinkButton {
+	background-color: pink;
+	color: white;
+	border-radius: 25px;
+	padding: 10px 20px;
+	border: none;
+}
+
+.middleBox h5 {
+	padding: 0;
+	margin: 0 0 10px 0;
+}
+
+.middleBox h1 {
+	padding: 0;
+	margin: 0;
+}
+
+.serviceList {
+	padding: 50px 0 20px 0;
+}
+
+.serviceList h3 {
+	padding: 0;
+	margin: 0 0 10px 0;
+	text-decoration: none;
+	border-bottom: 3px solid transparent;
+}
+
+.serviceList h3:hover {
+	border-bottom: 3px solid red;
+	text-decoration: none;
+	color: black;
+}
+
+.serviceList p {
+	margin: 0;
+}
+
+.servicesTypes {
+	padding-bottom: 50px;
+	margin: 0;
+}
+
+.servicesTypes li {
+	border: 1px solid gray;
+	border-width: thin;
+	list-style: none;
+	padding: 30px 50px;
+}
+
+.servicesTypes i {
+	font-size: 16px;
+	color: red;
+}
+
+.servicesTypes p {
+	font-size: 16px;
+}
+
+.purchaseSection {
+	padding: 50px 0;
+	background-color: #eae6e6;
+}
