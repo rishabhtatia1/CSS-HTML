@@ -2,11 +2,13 @@
 <html lang="en">
     <head>
         <title>INDEX</title>
+         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" rel="stylesheet"> -->
         <link href="./css/index.css" type="text/css" rel="stylesheet">
+        <link href="./css/addtocart.css" type="text/css" rel="stylesheet">
     </head>
     <body>
         <h1> PIZZA ORDER APP </h1>
-        <div class="container">
+        <div class="pizzaContainer">
             <div class="leftColumn">
                 <img src="./images/Margherit.jpg" alt = "Margherita"/>
                 <h2 class="name"> Margherita </h2>
@@ -14,7 +16,7 @@
                     tangy single cheese topping
                 </p>
                 <p class="pricingText"> Price:: 400 RS (10% of on MRP) </p>
-                <button class="pizzaButton cursorPointer">ADD TO CART</button>
+                <button type="button" class="pizzaButton cursorPointer">ADD TO CART</button>
             </div>
             <div class="rightColumn">
                 <img src="./images/Farmhouse.jpg" alt = "Farmhouse"/>
@@ -23,7 +25,7 @@
                     cheese... oodies of it!
                 </p>
                 <p class="pricingText"> Price:: 100 RS (20% of on MRP) </p>
-                <button class="pizzaButton cursorPointer">ADD TO CART</button>
+                <button type="button" class="pizzaButton cursorPointer">ADD TO CART</button>
             </div>
             <div class="leftColumn">
                 <img src="./images/Chicken_Golden_Delight.jpg" alt="Golden_Delight"/>
@@ -33,7 +35,7 @@
                     weight in gold!
                 </p>
                 <p class="pricingText"> Price:: 300 RS (10% of on MRP) </p>
-                <button class="pizzaButton cursorPointer">ADD TO CART</button>
+                <button type="button" class="pizzaButton cursorPointer">ADD TO CART</button>
             </div>
             <div class="rightColumn">
                 <img src="./images/Non-Veg_Supreme.jpg" alt = "Veg_Supreme"/>
@@ -43,7 +45,7 @@
                     Peri Chicken, Grilled Chicken Rashers
                 </p>
                 <p class="pricingText"> Price:: 150 RS (10% of on MRP) </p>
-                <button class="pizzaButton cursorPointer">ADD TO CART</button>
+                <button type="button" class="pizzaButton cursorPointer">ADD TO CART</button>
             </div>
             <div class="leftColumn">
                 <img src="./images/Dominator.jpg" alt = "Dominator"/>
@@ -53,7 +55,7 @@
                     Tikka & Grilled Chicken Rashers
                 </p>
                 <p class="pricingText"> Price:: 180 RS (10% of on MRP) </p>
-                <button class="pizzaButton cursorPointer">ADD TO CART</button>
+                <button type="button" class="pizzaButton cursorPointer">ADD TO CART</button>
             </div>
             <div class="rightColumn">
                 <img src="./images/Chicken_Fiesta.jpg" alt = "Chicken_Fiesta"/>
@@ -63,8 +65,36 @@
                     Capsicum & Onions.
                 </p>
                 <p class = "pricingText"> Price:: 290 RS (10% of on MRP) </p>
-                <button class="pizzaButton cursorPointer">ADD TO CART</button>
+                <button type="button" class="pizzaButton cursorPointer">ADD TO CART</button>
             </div>
-        </div>
+          </div>
+          <div class="cartWrapper" id="cartWrapper">
+            <ul class="mainList clearfix">
+                <li class="clearfix">
+                    <h3 class="names floatLeft">Name</h3>
+                    <h3 class="action floatLeft">Action</h3>
+                    <h3 class="price floatLeft">Price</h3>
+                </li>
+            </ul>
+            <ul class="listOfItems clearfix">
+                <li class="clearfix">
+                    <h3 class="names floatLeft"> 1)Margherita</h3>
+                    <h3 class="action floatLeft">
+                        <button class="redButton" type="submit">X</button>
+                    </h3>
+                    <h3 class="price floatLeft">360RS</h3>
+                </li>
+            </ul>
+            <div class="orderValues">
+                <div class="clearfix">
+                    <input type="text" class="couponInput floatLeft" value="Enter Code">
+                    <button type="button" class="couponApply">Apply Coupon</button>
+                    <span class="textTotal">TOTAL => 360RS </span>
+                </div>
+                <button class="pizzaButton" type="submit">PLACE YOUR ORDER </button>
+                <button class="pizzaButton" id="closeCart">CLOSE CART</button>
+            </div>
+          </div>
+          <script src="script.js"> </script>
     </body>
 </html>

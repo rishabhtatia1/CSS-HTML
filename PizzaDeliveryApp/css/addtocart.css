@@ -26,7 +26,7 @@
 	margin: 0;
 }
 
-.name {
+.names {
 	width: 70%;
 }
 
@@ -48,7 +48,7 @@
 	border-bottom-right-radius: 4px;
 }
 
-.listOfItems .name,
+.listOfItems .names,
 .listOfItems .price {
 	padding: 8px 0 8px 0;
 }
