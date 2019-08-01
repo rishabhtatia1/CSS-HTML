@@ -57,12 +57,14 @@ h1 {
 	color: white;
 	margin: 10px 0;
 }
+
 .cartWrapper {
 	position: absolute;
 	top: 0;
 	right: 0;
 	display: none;
 }
+
 .pizzaButton {
 	margin: 20px 0 10px 0;
 	padding: 10px 35px;
